@@ -35,6 +35,7 @@ booky has two sides. one for people looking for services, and another for busine
 ## some pretty pictures
 
 ============================================================================
+[here are the pretty screenshots here in this embed lenk](https://github.com/sonathann/things-thingsn-t/tree/main/booky/scweenshots)
 ============================================================================
 
 ## the tech stuff
