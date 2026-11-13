@@ -1,1 +1,42 @@
-please dont read me
+
+### manual testing
+
+`business_application_crash_test.md`
+
+a checklist covering business registration, account approvals, authentication, permissions, profile images, and other scenarios where things could go real wrong.
+
+it's a test plan, not a completed execution report. actual results will be documented separately.
+
+### automated tests
+
+some selected Dart/Flutter tests from the main application:
+
+| test | what it checks |
+|---|---|
+| `availability_test.dart` | appointment availability, overlaps, and scheduling boundaries |
+| `auth_validators_test.dart` | email and password validation |
+| `booking_ui_test.dart` | booking states, dates, sorting, and cancellation rules |
+| `venue_proximity_test.dart` | distance calculations and nearby venue filtering |
+
+these are examples from booky's private codebase, so they depend on application files that aren't included here. they're for showing the testing approach rather than being a standalone runnable test suite.
+
+## how i approach testing
+
+mostly stress testing, breaking
+
+- checking normal user flows
+- throwing invalid inputs at everything
+- testing unusual combinations and edge cases
+- reproducing bugs and figuring out what caused them
+- checking whether fixes actually work
+- making sure yesterday's fix didn't break something completely unrelated
+
+## tools & tech
+
+Flutter - Dart
+Flutter Test
+Manual QA 
+GitHub
+
+
+
