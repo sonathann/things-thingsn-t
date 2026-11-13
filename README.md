@@ -13,7 +13,7 @@ My ongoing project, from initial concept and UI/UX design to development, testin
 
 Tech: Flutter  Dart  Supabase  PostgreSQL
 
-[Explore Booky](./Booky/)
+[CLICK HERE FOR BOOKY STUFF ITSELF THIS IS A GENERAL README FILE HEH](https://github.com/sonathann/things-thingsn-t/tree/main/booky)
 
 ---
 
